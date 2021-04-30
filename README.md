@@ -1,1 +1,6 @@
 # automated-question-and-answer-generation
+
+ABSTRACT:
+There are many times we come across generating questions for exams or for talent tests. As of now most of the time questions are generated through manual reading and highlighting important points from text and generate questions and multiple choice answers. As the use of natural language processing increasing in all fields in handling text information and providing useful automation system has gained lot of scope in all fields of engineering. In this project NLTK natural language processing library is used for automatic question generation from given text. 
+User can give any text document which has question and answer type of data. Important part of this project is while giving text document we must check if data in text deals with question and answer type of information. In this project different python libraries are used for dividing each word in the given text file using text blob and text is divided in to each sentence using parsing method these sentences are then parsed to generate questions. Each sentence is applied with English grammar rules with different conditions and add these details to bucket. In each bucket parts of speech is added to each sentence
+
